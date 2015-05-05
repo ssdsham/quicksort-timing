@@ -1,23 +1,16 @@
-/*Coded by Sham Dorairaj
- * Submission for CSE 5331 Autumn 2013 Lab Assignment 1
- * TrainSorting Algorithm
-* Start by popping inputTrack and pushing into exitTrack.
-* Compare inputTrack, sideTrack and exitTrack.
-* Push/Pop such that smaller value goes to exitTrack and larger value remains on sideTrack and
-*  exitTrack is always in increasing order and sideTrack is in decreasing order.
-* Once inputTrack is exhausted pop all cars from sideTrack and push onto exitTrack.
- */
+/*Coded by Sham Dorairaj */
+
 
 
 
 import java.util.Stack;
 
-//Uncomment the following imports to use without Lab1Test JUnint. Keep StopWatch.java and RandomInputGenerator.java in build 
+//Uncomment the following imports to use without JUnint. Keep StopWatch.java and RandomInputGenerator.java in build 
 /*import java.util.ArrayList;
 import java.util.List;
 */
 
-public class Lab1 {
+public class SortTiming{
 	
 	/*
 	 * @param inputTrack Stack of input values to sort

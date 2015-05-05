@@ -4,7 +4,7 @@ import java.util.Stack;
 import junit.framework.TestCase;
 
 
-public class Lab1Test extends TestCase {
+public class SortTimingTest extends TestCase {
 
 	private Stack<Integer> listToStack(ArrayList<Integer> list)
 	{
